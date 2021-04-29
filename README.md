@@ -60,3 +60,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Steps auth-permissions
+- Install project laravel with composer : "composer create-project --prefer-dist laravel/laravel:^7.0"
+- create database
+- install the package via composer: "composer require spatie/laravel-permission". check here to see the tutorial: https://spatie.be/docs/laravel-permission/v4/installation-laravel
+- run the command "php artisan migrate"
+- create Seeder and run the command : "php artisan make:seeder RoleSeeder" and "php artisan make:seeder UserSeeder"
+- run the command : "php artisan db:seed"
+- run the command : "composer require laravel/ui "^2.0"
+- run the command : "php artisan ui --auth boorstrap"
