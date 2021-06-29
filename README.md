@@ -67,4 +67,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - create Seeder and run the command : "php artisan make:seeder RoleSeeder" and "php artisan make:seeder UserSeeder"
 - run the command : "php artisan db:seed"
 - run the command : "composer require laravel/ui "^2.0"
-- run the command : "php artisan ui --auth boorstrap"
+- run the command : "php artisan ui --auth bootstrap"
